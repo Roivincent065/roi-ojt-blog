@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OJT Narrative Blog | Full-Stack Internship</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">OJT<span>Blog</span></a>
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#stack">Tech Stack</a></li>
+                <li><a href="#milestones">Milestones</a></li>
+                <li><a href="#reflection">Reflection</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="badge">NEMSU Internship 2026</span>
+            <h1>Documenting My Full-Stack Software Engineering Journey</h1>
+            <p>An account of training accomplishments, backend architectures, and database containerization from June 18 to August 15.</p>
+            <div class="hero-actions">
+                <a href="#milestones" class="btn btn-primary">View Accomplishments</a>
+                <a href="#reflection" class="btn btn-secondary">Read Reflection</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        <!-- Internship Overview -->
+        <section id="overview" class="card">
+            <h2>Internship Overview</h2>
+            <p>As part of the academic curriculum at <strong>North Eastern Mindanao State University (NEMSU)</strong>, this On-the-Job Training program provided intensive hands-on experience in modern full-stack web development. The focus centered on bridging classroom theory with enterprise engineering practices, covering front-end responsiveness, database containerization, RESTful API design, and token-based authentication.</p>
+        </section>
+
+        <!-- Technical Stack -->
+        <section id="stack" class="card">
+            <h2>Technologies & Skills Mastered</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript (ES6+), Fetch API, DOM Manipulation</p>
+                </div>
+                <div class="tech-card">
+                    <h3>Backend</h3>
+                    <p>Node.js, Express.js, RESTful APIs, Middleware Refactoring</p>
+                </div>
+                <div class="tech-card">
+                    <h3>Database & DevOps</h3>
+                    <p>MySQL, Docker Containerization, Docker Compose, Connection Pools</p>
+                </div>
+                <div class="tech-card">
+                    <h3>Security & Tools</h3>
+                    <p>JWT (JSON Web Tokens), bcrypt Hashing, Git, GitHub</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Milestones Section -->
+        <section id="milestones">
+            <h2 class="section-title">Key Accomplishments & Projects</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="card-tag">Foundations</div>
+                    <h3>freeCodeCamp Certifications</h3>
+                    <p>Completed core web development courses establishing dynamic front-end execution, CSS layouts, dynamic rendering, and algorithmic problem-solving with ES6+ JavaScript.</p>
+                </article>
+
+                <article class="blog-card">
+                    <div class="card-tag">DevOps & SQL</div>
+                    <h3>Docker & MySQL Database Administration</h3>
+                    <p>Provisioned containerized MySQL instances with Docker Compose. Engineered relational schemas with primary/foreign keys, multi-table `JOIN` operations, aggregate analysis, and automated data updates.</p>
+                </article>
+
+                <article class="blog-card">
+                    <div class="card-tag">Backend API</div>
+                    <h3>Persistent Task CRUD API</h3>
+                    <p>Constructed an Express backend integrated with containerized MySQL via `mysql2/promise` connection pooling. Transitioned temporary in-memory JavaScript state to fully persistent SQL queries.</p>
+                </article>
+
+                <article class="blog-card">
+                    <div class="card-tag">Security</div>
+                    <h3>JWT Authentication & Refactoring</h3>
+                    <p>Integrated user registration with `bcrypt` password hashing, `/auth/login` token issuance, and custom `authenticateToken` middleware to protect routes across full-stack applications.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Reflection -->
+        <section id="reflection" class="card">
+            <h2>OJT Reflection</h2>
+            <p>Navigating full-stack integration and database management cultivated strong technical problem-solving capabilities. Debugging asynchronous connection pools line-by-line, validating REST request payloads, and securing API endpoints reinforced a complete engineering workflow. This internship transformed abstract software development concepts into reliable production capabilities.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 NEMSU Internship Narrative Report. Built with HTML, CSS, & JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
